@@ -152,4 +152,33 @@ body {
 
 #adam-informations h2{
     color: var(--primary-color);
+    
+}
+
+.container2 h2{
+    margin-bottom: 50px;
+}
+
+#adam-img{
+   
+    border-radius: 50%;
+    background: var(--black-color);
+    padding: 20px 20px 20px 20px;
+    float:left
+}
+
+#cutline{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    
+}
+
+footer{
+    background-color: black;
+    color: var(--secondary-color);
+    font-size: 30px;
+    padding: 4rem;
+    width: 100%;
+    text-align: center;
 }
