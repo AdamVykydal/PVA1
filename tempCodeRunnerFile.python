@@ -1,0 +1,8 @@
+a = float(input("a"))
+b = float(input("b")) 
+c = float(input("c")) 
+
+povrch = 2 * (a * b + a * c + c * b)
+obsah = (a * b * c)
+
+print("povrch =", povrch ," obsah =" , obsah)
