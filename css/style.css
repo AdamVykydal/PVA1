@@ -161,10 +161,11 @@ body {
     border-radius: 50%;
     background: var(--black-color);
     padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
     float: left
 }
 
-#cutline {
+.cutline {
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -182,6 +183,13 @@ footer {
 #user-rating td{
     padding-top: 25px;
     padding-bottom: 25px;
+    border-bottom: 1px solid black;
+    
+}
+#user-rating tr{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
     
 }
 
@@ -203,7 +211,18 @@ footer {
 }
 
 form{
-    padding: 100px;
+    margin: 10px 300px 10px 300px;
+    padding: 100px 100px 100px 100px;
+    background-color: aqua;
+    border: 5px solid black;
+}
+
+.form{
+    padding-top: 100px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen  and (max-width: 600px){
@@ -211,5 +230,34 @@ form{
         flex-wrap: wrap;
         justify-content: center;
     }
-}
+
+    #item{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex: 1;
+    }
+    #me .items{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .user-smile{
+        padding-right: 10px;
+        font-size: 20px;
+        flex-wrap: wrap;
+
+    }
+    .user-name{
+        padding-right: 50px;
+        font-size: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .user-comment{
+        font-size: 20px;
+        flex-wrap: wrap;
+    }
+
+}   
+
 
